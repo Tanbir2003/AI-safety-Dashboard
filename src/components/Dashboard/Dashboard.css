@@ -1,0 +1,43 @@
+/* src/components/Dashboard/Dashboard.css */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .dashboard h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+  }
+  
+  .dashboard p {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-group label {
+    font-weight: bold;
+  }
+  
+  .filter-group select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    min-width: 150px;
+  }

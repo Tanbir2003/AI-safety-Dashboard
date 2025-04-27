@@ -1,0 +1,78 @@
+/* src/components/IncidentItem/IncidentItem.css */
+.incident-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .incident-header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .incident-header h3 {
+    margin: 0;
+    flex: 1;
+  }
+  
+  .incident-meta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .severity-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .severity-badge.low {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+  
+  .severity-badge.medium {
+    background-color: #fff8e1;
+    color: #f57f17;
+  }
+  
+  .severity-badge.high {
+    background-color: #ffebee;
+    color: #c62828;
+  }
+  
+  .date {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .toggle-details-btn {
+    background: none;
+    border: none;
+    color: #3366cc;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  .toggle-details-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .incident-details {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .incident-details p {
+    margin: 0;
+    line-height: 1.5;
+  }

@@ -1,0 +1,15 @@
+/* src/components/IncidentList/IncidentList.css */
+.incident-list {
+    margin-top: 20px;
+  }
+  
+  .incident-list h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .incidents-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
